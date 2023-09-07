@@ -1,0 +1,1195 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* nav bar */
+ .home {
+     width: 100%;
+     background-color: white;
+ }
+
+ .home .nav {
+     width: 100%;
+     background-color: white;
+     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     overflow: auto;
+     text-align: center;
+ }
+
+ .home .nav .toggoller {
+     background-color: transparent;
+     color: black;
+     font-size: 20px;
+     margin: 20px;
+     display: none;
+     float: right;
+ }
+
+ .home .nav .btns {
+     width: 70%;
+     float: right;
+ }
+
+ .home .nav .btns ul {
+     list-style: none;
+     flex-direction: row;
+     padding-top: 10px;
+     margin-right: 15%;
+ }
+
+ .home .nav .btns ul li {
+     margin: 20px;
+     display: inline;
+
+ }
+
+ .home .nav .btns ul li a {
+     text-decoration: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 15px;
+ }
+
+
+
+ .home .nav .btns ul li .btn {
+     box-sizing: border-box;
+     border: 2px solid rgb(255, 165, 0);
+     border-radius: 40px;
+     font-family: sans-serif;
+     color: black;
+     padding: 10px 10px;
+     font-size: 14px;
+     font-weight: 600;
+ }
+
+ .home .nav .btns ul li .btn i {
+     color: rgb(255, 165, 0);
+ }
+
+ .home .nav .img {
+     display: inline-block;
+     float: left;
+     width: 20%;
+
+ }
+
+ .home .nav .img img {
+     width: 35px;
+     height: 35px;
+     margin-left: 50%;
+ }
+
+ /*end nav bar */
+
+ /* Using */
+
+ .using {
+     width: 100%;
+     background-color: white;
+     margin-top: 30px;
+ }
+
+ .using .row {
+     width: 100%;
+     background-color: white;
+     display: flex;
+ }
+
+ .using .row .container {
+     width: 25%;
+     background-color: white;
+     margin-left: 25%;
+     text-align: center;
+ }
+
+ .using .row .container h1 {
+     color: black;
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 48px;
+     margin-top: 10px;
+ }
+
+ .using .row .container h2 {
+     color: rgba(32, 32, 32, 0.6);
+     font-family: sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+     margin-top: 10px;
+ }
+
+ .using .row .container button {
+     background-color: rgb(255, 165, 0);
+     color: white;
+     border-radius: 20px;
+     padding: 10px 30px;
+     font-weight: bold;
+     border: 0;
+     margin: 10px;
+     transition: all 1s;
+ }
+
+ .using .row .container button:hover {
+     background-color: #007bff;
+     color: white;
+     border-radius: 20px;
+     padding: 10px 30px;
+     font-weight: bold;
+     border: 0;
+     margin: 10px;
+ }
+
+ .using .row .image {
+     width: 25%;
+     background-color: white;
+     margin-right: 25%;
+ }
+
+ .using .row .image img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .using .images {
+     width: 100%;
+     background-color: rgb(243, 245, 250);
+     display: flex;
+     margin-bottom: 30px;
+     margin-top: 30px;
+ }
+
+ .using .borders {
+     width: 70%;
+     background-color: rgb(243, 245, 250);
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 15%;
+     margin-right: 15%;
+ }
+
+ .using .images .borders .img1 {
+     width: 16%;
+     background-color: rgb(243, 245, 250);
+     text-align: center;
+ }
+
+ .using .images .borders .img1 img {
+     width: 60%;
+     height: 60%;
+     margin-top: 20px;
+     filter: grayscale(100);
+     transition: all 0.5s;
+ }
+
+ .using .images .borders .img1 img:hover {
+     width: 65%;
+     height: 65%;
+     margin-top: 20px;
+     filter: none;
+
+ }
+
+
+ .using .images .borders .img2 {
+     width: 16%;
+     background-color: rgb(243, 245, 250);
+     text-align: center;
+ }
+
+ .using .images .borders .img2 img {
+     width: 60%;
+     height: 60%;
+     margin-top: 20px;
+     filter: grayscale(100);
+     transition: all 1s;
+ }
+
+ .using .images .borders .img2 img:hover {
+     width: 65%;
+     height: 65%;
+     margin-top: 20px;
+     filter: none;
+
+ }
+
+ .using .images .borders .img3 {
+     width: 16%;
+     background-color: rgb(243, 245, 250);
+     text-align: center;
+ }
+
+ .using .images .borders .img3 img {
+     width: 60%;
+     height: 60%;
+     margin-top: 20px;
+     filter: grayscale(100);
+     transition: all 1s;
+ }
+
+ .using .images .borders .img3 img:hover {
+     width: 65%;
+     height: 65%;
+     margin-top: 20px;
+     filter: none;
+
+ }
+
+ .using .images .borders .img4 {
+     width: 16%;
+     background-color: rgb(243, 245, 250);
+     text-align: center;
+ }
+
+ .using .images .borders .img4 img {
+     width: 60%;
+     height: 60%;
+     margin-top: 20px;
+     filter: grayscale(100);
+     transition: all 1s;
+ }
+
+ .using .images .borders .img4 img:hover {
+     width: 65%;
+     height: 65%;
+     margin-top: 20px;
+     filter: none;
+
+ }
+
+ .using .images .borders .img5 {
+     width: 16%;
+     background-color: rgb(243, 245, 250);
+     text-align: center;
+ }
+
+ .using .images .borders .img5 img {
+     width: 60%;
+     height: 60%;
+     margin-top: 20px;
+     filter: grayscale(100);
+     transition: all 1s;
+ }
+
+ .using .images .borders .img5 img:hover {
+     width: 65%;
+     height: 65%;
+     margin-top: 20px;
+     filter: none;
+
+ }
+
+ .using .images .borders .img6 {
+     width: 16%;
+     background-color: rgb(243, 245, 250);
+     text-align: center;
+ }
+
+ .using .images .borders .img6 img {
+     width: 60%;
+     height: 60%;
+     margin-top: 20px;
+     filter: grayscale(100);
+     transition: all 1s;
+ }
+
+ .using .images .borders .img6 img:hover {
+     width: 65%;
+     height: 65%;
+     margin-top: 20px;
+     filter: none;
+
+ }
+
+ /* end Using */
+
+ /* Using2 */
+ .Using2 {
+     width: 100%;
+     background-color: white;
+     margin-top: 10%;
+ }
+
+ .Using2 h2 {
+     font-family: sans-serif;
+     text-align: center;
+     font-size: 32px;
+     font-weight: bold;
+     position: relative;
+     color: rgb(55, 81, 126);
+ }
+
+ .Using2 .row {
+     width: 100%;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ .Using2 .row .using2img {
+     width: 50%;
+     background-color: white;
+
+ }
+
+ .Using2 .row .using2img img {
+     width: 80%;
+     margin-left: 10px;
+ }
+
+ .Using2 .row .container {
+     width: 50%;
+     background-color: white;
+     /*padding-left: 15px;
+    padding-right: 15px;*/
+
+
+ }
+
+ .Using2 .row .container p {
+     font-family: sans-serif;
+     color: rgb(68, 68, 68);
+     line-height: 1.5;
+     margin-bottom: 30px;
+ }
+
+ .Using2 .row .container li {
+     display: inline;
+ }
+
+ .Using2 .row .container .btn {
+     border: 2px solid rgb(255, 165, 0);
+     color: rgb(255, 165, 0);
+     background-color: white;
+     font-weight: 500;
+     text-decoration: none;
+     border-radius: 5px;
+     display: inline-block;
+     margin-left: 10px;
+     margin-top: 10px;
+     box-sizing: border-box;
+     padding: 10px 30px;
+     transition: all 1ms;
+ }
+
+ .Using2 .row .container .btn:hover {
+     border: 2px solid rgb(255, 165, 0);
+     color: white;
+     background-color: rgb(255, 165, 0);
+     font-weight: 500;
+     text-decoration: none;
+     border-radius: 5px;
+     display: inline-block;
+     margin-left: 10px;
+     margin-top: 10px;
+     box-sizing: border-box;
+     padding: 10px 30px;
+ }
+
+ /* end Using2 */
+
+ /* About*/
+ .about {
+     width: 100%;
+     background-color: white;
+     margin-top: 10%;
+     margin-bottom: 10%;
+ }
+
+
+ .about h2 {
+     font-family: sans-serif;
+     text-align: center;
+     font-size: 32px;
+     font-weight: bold;
+     color: rgb(55, 81, 126);
+ }
+
+ .about .row {
+     width: 100%;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ .about .row .section1 {
+     width: 45%;
+     background-color: white;
+     padding: 10px 20px;
+
+ }
+
+ .about .row .section1 p {
+     margin-bottom: 10px;
+     line-height: 1.5;
+
+ }
+
+ .about .row .section1 ul {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .about .row .section1 ul li {
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+
+ .about .row .section1 ul li i {
+     color: rgb(255, 165, 0);
+ }
+
+ .about .row .section2 {
+     width: 45%;
+     background-color: white;
+     padding: 10px;
+     padding-right: 40px;
+
+ }
+
+ .about .row .section2 p {
+     margin-bottom: 10px;
+     line-height: 1.5;
+ }
+
+ .about .row .section2 button {
+     border: 2px solid rgb(255, 165, 0);
+     color: rgb(255, 165, 0);
+     background-color: white;
+     border-radius: 5px;
+     padding: 8px;
+     font-weight: 500;
+     margin-right: 80%;
+     transition: all 1ms;
+ }
+
+ .about .row .section2 button:hover {
+     border: 2px solid rgb(255, 165, 0);
+     background-color: rgb(255, 165, 0);
+     color: white;
+     border-radius: 5px;
+     padding: 8px;
+     font-weight: 500;
+     margin-right: 80%;
+ }
+
+ /* end About*/
+
+ /* CATEGORIES */
+ .categories {
+     width: 100%;
+     background-color: rgb(243, 245, 250);
+     margin-top: 10%;
+
+ }
+
+ .about .container {
+     width: 100%;
+     background-color: white;
+     text-align: center;
+ }
+
+ .categories .container h2 {
+     font-family: sans-serif;
+     text-align: center;
+     font-size: 32px;
+     font-weight: bold;
+     color: rgb(55, 81, 126);
+     margin-bottom: 50px;
+
+ }
+
+ .categories .container .row {
+     width: 70%;
+     background-color: rgb(243, 245, 250);
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-left: 15%;
+
+ }
+
+ .categories .container .row .card1 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card1 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card1 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card1 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card2 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+     /*transition: all 0.5s;*/
+ }
+
+ /*.categories .container .row .card2 :hover{
+    width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+     translate: 10px ;
+ }*/
+
+ .categories .container .row .card2 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card2 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card2 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card3 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card3 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card3 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card3 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card4 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card4 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card4 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card4 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card5 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card5 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card5 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card5 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card6 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card6 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card6 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card6 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card7 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card7 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card7 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card7 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card8 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card8 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card8 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card8 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .categories .container .row .card9 {
+     width: 30%;
+     margin: 5px 5px;
+     position: relative;
+     height: 250px;
+ }
+
+ .categories .container .row .card9 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .categories .container .row .card9 h1 {
+     text-align: center;
+     width: 100%;
+     background-color: rgb(255, 165, 0);
+     position: absolute;
+     top: 48px;
+ }
+
+ .categories .container .row .card9 h1 a {
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+ }
+
+ /* end CATEGORIES */
+
+ /* BRANDS */
+ .brands {
+     width: 100%;
+     background-color: rgb(243, 245, 250);
+     padding-top: 20%;
+     padding-bottom: 20%;
+     text-align: center;
+ }
+
+ .brands .container {
+     width: 100%;
+     background-color: rgb(243, 245, 250);
+ }
+
+ .brands .container .title h2 {
+     text-align: center;
+     color: #37517e;
+     font-size: 32px;
+     font-family: sans-serif;
+     font-weight: bold;
+     margin-bottom: 7px
+ }
+
+ .brands .container .row {
+     width: 70%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin: auto
+ }
+
+ .brands .container .row .text {
+     text-align: center;
+ }
+
+ .brands .container .row .text p {
+     font-weight: 500;
+     color: rgb(68, 68, 68);
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ .brands .container .row .items {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .brands .container .row .items .item {
+     width: 30%;
+ }
+
+ /* end BRANDS */
+
+ /* Contact */
+ .contact {
+     width: 100%;
+ }
+
+ .contact .container {
+     width: 100%;
+ }
+
+ .contact .container .title {
+     padding: 50px 0px;
+ }
+
+ .contact .container .title h1 {
+     text-align: center;
+     color: #37517e;
+     font-size: 32px;
+     font-family: var(--fontFamily);
+     font-weight: bold;
+     margin-bottom: 7px
+ }
+
+ .contact .container .row {
+     width: 70%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin: auto
+ }
+
+ .contact .container .row .text {
+     text-align: center;
+     height: 80px
+ }
+
+ .contact .container .row .text {
+     font-weight: 500;
+     color: rgb(68, 68, 68);
+     font-size: 15p
+ }
+
+ .contact .container .row .row2 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between
+ }
+
+ .contact .container .row2 .img {
+     width: 48%;
+ }
+
+ .contact .container .row2 .img img {
+     width: 100%;
+ }
+
+ .contact .container .row2 .form-line {
+     width: 48%;
+     text-align: center;
+     box-shadow: 0px 0px 20px rgba(32, 32, 32, 0.4);
+ }
+
+ .contact .container .row2 .form-line .form {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 30px 0px;
+ }
+
+ .contact .container .row2 .form-line .form .item {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     width: 45%
+ }
+
+ .contact .container .row2 .form-line .form .item label {
+     margin-right: auto;
+     margin-left: 13px;
+     margin-bottom: 10px;
+     font-size: 16px
+ }
+
+ .contact .container .row2 .form-line .form .item input {
+     width: 90%;
+     height: 30px;
+     border: 1px solid #4f4f4f
+ }
+
+ .contact .container .row2 .form-line .item-textarea {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     width: 90%;
+     margin: auto
+ }
+
+ .contact .container .row2 .form-line .item-textarea label {
+     margin-bottom: 10px;
+     font-size: 16px;
+     margin-right: auto
+ }
+
+ .contact .container .row2 .form-line .item-textarea textarea {
+     border: 1px solid #4f4f4f
+ }
+
+ .contact .container .row2 button {
+     background-color: rgb(255, 165, 0);
+     color: white;
+     font-size: 17px;
+     font-family: 400;
+     border: none;
+     border-radius: 20px;
+     width: 33%;
+     padding: 12px 8px;
+     text-align: center;
+     margin: 40px 0px 33px 0px;
+     cursor: pointer;
+
+ }
+
+ /* end Contact */
+
+ /* Footer */
+ .footer {
+     width: 100%;
+     background-color: #37517e;
+     height: 215px;
+     margin-top: 30px;
+     padding-top: 60px
+ }
+
+ .footer .row {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     width: 70%;
+     margin: auto;
+ }
+
+ .footer .row .container1 {
+     width: 50%;
+ }
+
+ .footer .row .container1 p {
+     color: white;
+     font-size: 14px;
+     font-family: sans-serif;
+     margin-bottom: 5px
+ }
+
+ .footer .row .container2 {
+     width: 50%;
+ }
+
+ .footer .row .container2 p {
+     color: white;
+     font-size: 14px;
+     font-family: sans-serif;
+     margin-bottom: 5px
+ }
+
+
+ /*    small screen      */
+
+ @media(max-width:600px) {
+
+     .home .nav .btns ul {
+         display: none;
+     }
+
+     .home .nav .toggoller {
+         display: block;
+     }
+
+     .home .nav .img {
+         margin-top: 10px;
+     }
+
+     .using .row {
+         display: inline-block;
+     }
+
+     .using .row .image {
+         width: 90%;
+
+     }
+
+     .using .row .container {
+         width: 90%;
+         margin-left: 0;
+
+     }
+
+     .using .images .borders {
+         width: 100%;
+     }
+
+     .using .images .borders .img1 {
+         width: 90%;
+         background-color: rgb(243, 245, 250);
+     }
+
+     .using .images .borders .img2 {
+         width: 90%;
+         background-color: rgb(243, 245, 250);
+     }
+
+     .using .images .borders .img3 {
+         width: 90%;
+         background-color: rgb(243, 245, 250);
+     }
+
+     .using .images .borders .img4 {
+         width: 90%;
+         background-color: rgb(243, 245, 250);
+     }
+
+     .using .images .borders .img5 {
+         width: 90%;
+         background-color: rgb(243, 245, 250);
+     }
+
+     .using .images .borders .img6 {
+         width: 90%;
+         background-color: rgb(243, 245, 250);
+     }
+
+     .Using2 .row .using2img {
+         width: 90%;
+         background-color: white;
+
+     }
+
+     .Using2 .row .container {
+         width: 90%;
+         background-color: white;
+         margin-left: 10px;
+     }
+
+     .about .row .section1 {
+         width: 90%;
+     }
+
+     .about .row .section2 {
+         width: 90%;
+     }
+
+     .about .row .section2 button {
+         margin-right: 0;
+     }
+
+     /*.categories .container .row{
+        width: 100%;
+     }*/
+
+     .categories .container .row .card1 {
+         width: 90%;
+     }
+
+     .categories .container .row .card2 {
+         width: 90%;
+     }
+
+     .categories .container .row .card3 {
+         width: 90%;
+     }
+
+     .categories .container .row .card4 {
+         width: 90%;
+     }
+
+     .categories .container .row .card5 {
+         width: 90%;
+     }
+
+     .categories .container .row .card6 {
+         width: 90%;
+     }
+
+     .categories .container .row .card7 {
+         width: 90%;
+     }
+
+     .categories .container .row .card8 {
+         width: 90%;
+     }
+
+     .categories .container .row .card9 {
+         width: 90%;
+     }
+
+     .brands .container .row .items .item {
+         width: 90%;
+         margin-top: 10px;
+     }
+
+     .contact .container .row .row2 {
+         margin-top: 30px;
+         margin-bottom: 20%;
+     }
+
+     .contact .container .row2 .img {
+         width: 90%;
+
+     }
+
+     .contact .container .row2 .form-line {
+         width: 90%;
+         margin-top: 10px;
+       
+     }
+
+     .contact .container .row2 .form-line .form {
+         width: 100%;
+     }
+
+     .contact .container .row2 .form-line .form .item {
+         width: 100%;
+         margin-top: 20px;
+     }
+
+     .contact .container .row2 button {
+         padding-top: 12px;
+         padding-bottom: 12px;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+
+     .footer {
+         margin-top: 10px;
+     }
+
+     .footer .row{
+        width: 100%;
+     }
+
+     .footer .row .container1 {
+         width: 100%;
+         text-align: center;
+     }
+
+     .footer .row .container2 {
+         width: 100%;
+         margin-top: 20px;
+         text-align: center;
+     }
+ }
